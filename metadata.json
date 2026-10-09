@@ -1,0 +1,6 @@
+{
+  "name": "Pulse Messenger - Encrypted Team Canvas & AI Copilot",
+  "description": "The encrypted canvas built for high-velocity teams. Zero friction, autonomous AI synthesis, and seamless context handoffs across desktop and mobile.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

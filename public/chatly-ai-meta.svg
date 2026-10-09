@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <linearGradient id="metaAIGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D2FF"/>
+      <stop offset="25%" stop-color="#0066FF"/>
+      <stop offset="50%" stop-color="#8A2BE2"/>
+      <stop offset="75%" stop-color="#FF007F"/>
+      <stop offset="100%" stop-color="#FF6B00"/>
+    </linearGradient>
+    <filter id="metaGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Dark Deep Background -->
+  <circle cx="64" cy="64" r="63" fill="#060B18"/>
+  <!-- Soft Glow Ring -->
+  <circle cx="64" cy="64" r="42" fill="none" stroke="url(#metaAIGradient)" stroke-width="17" opacity="0.35" filter="url(#metaGlow)"/>
+  <!-- Main Vibrant Meta AI Circular Ring -->
+  <circle cx="64" cy="64" r="42" fill="none" stroke="url(#metaAIGradient)" stroke-width="13" stroke-linecap="round"/>
+  <!-- Inner Highlight Arc -->
+  <circle cx="64" cy="64" r="42" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.45" stroke-dasharray="25 20 50 25"/>
+  <!-- Center Ambient Darkness -->
+  <circle cx="64" cy="64" r="28" fill="#060B18" opacity="0.95"/>
+</svg>
